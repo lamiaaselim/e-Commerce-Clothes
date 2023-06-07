@@ -219,5 +219,53 @@
     border: none;
 }
 
-/*-------------------- Contact --------------------*/
-
+/*-------------------- Footer  --------------------*/
+.footer {
+    background: rgb(233, 97, 46);
+    padding: 85px 0;
+}
+.single-box{
+    font-size: 16px;
+    font-weight: 700;
+    color:black;
+}
+.single-box .card-area {
+    font-size: 16px;
+    color:black;
+    margin-right: 10px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    font-weight: 400;
+}
+.single-box h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    background: black;
+    color: rgb(233, 97, 46);
+    outline: none;
+    border: none;
+}
+.socials i{
+    font-size: 20 px;
+    margin-right: 15px;
+}
+@media (max-width: 767px) {
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
