@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+::selection{
+    background-color: rgb(233, 97, 46);
+    color: aliceblue;
+}
 /* ------------ Navbar ------------ */
 .nav-item a{
     text-decoration: none;
