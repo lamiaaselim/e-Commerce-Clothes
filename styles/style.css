@@ -9,6 +9,9 @@
     color: aliceblue;
 }
 /* ------------ Navbar ------------ */
+i .fa-store:hover{
+    color:rgb(233, 97, 46);
+}
 .nav-item a{
     text-decoration: none;
     color: black;
